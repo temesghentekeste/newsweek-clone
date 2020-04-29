@@ -1,0 +1,111 @@
+:root {
+  --primary-color: #f72210;
+  --secondary-color: #fff;
+  --black-color: #000;
+  --primary-font: 'Roboto Condensed', sans-serif;
+  --secondary-font: Arial, Helvetica, sans-serif;
+  --tirtiary-font: 'Arimo', sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--black-color);
+}
+
+a {
+  color: var(--black-color);
+  font-family: var(--primary-font);
+}
+
+a:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.bg-primary {
+  background: var(--primary-color) !important;
+  font-family: var(--secondary-font);
+}
+
+.container {
+  max-width: 1310px;
+}
+
+/* Navbar: top */
+
+.top-nav {
+  height: 95px;
+}
+
+.logo {
+  height: 60px;
+  text-align: center;
+}
+
+.logo img {
+  width: 394px;
+  height: 100%;
+}
+
+.weather span {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.weather img {
+  width: 25px;
+}
+
+.top-right {
+  height: 30px;
+}
+
+.top-right .sign-in {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.top-right .subscribe {
+  background: #fff;
+  height: 100%;
+  color: var(--primary-color);
+  font-weight: 600;
+  padding-bottom: 6px 12px 10px;
+  width: 130px;
+  margin-left: 1rem;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.7)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+@media (max-width: 990px) {
+  .top-nav {
+    height: 50px;
+    padding-bottom: 0.5rem;
+    align-items: center;
+  }
+
+  .logo {
+    width: 132px;
+  }
+
+  .logo,
+  .top-right {
+    height: 25px;
+  }
+
+  .weather {
+    display: none;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+}
