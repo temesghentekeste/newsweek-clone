@@ -87,84 +87,126 @@ a:hover {
 
 /* Navbar: bottom */
 .bottom-nav {
-    border: 1px solid;
-  }
-  
-  .bottom-nav ul {
-    flex: 1;
-  }
-  
-  
-  /* change the background color */
-  .bottom-nav {
-    background-color: var(--light-color);
-  }
-  
-  /* change the brand and text color */
-  .bottom-nav .navbar-text {
-    color: #000;
-  }
-  
-  /* change the link color */
-  .bottom-nav .navbar-nav .nav-link {
-    color: #000;
-    font-family: var(--primary-font);
-    font-size: 1rem;
-    font-weight: 600;
-  }
-  
-  /* adding border-left to each link */
-  .bottom-nav .navbar-nav .nav-link::before {
-    content: '';
-    padding: 0 0.3rem;
-    height: 10px;
-    border-left: 1px solid #ccc;
-  }
-  
-  /* removing the bordeer from the first child */
-  .bottom-nav .navbar-nav .no-border::before {
-    display: none;
-  }
-  
-  /* change the color of active or hovered links */
-  .bottom-nav .nav-item.active .nav-link,
-  .bottom-nav .nav-item:focus .nav-link,
-  .bottom-nav .nav-item:hover .nav-link {
-    color: var(--primary-color);
-  }
-  
-  /* styling the search form control */
-  .form-control {
-    border: none;
-    width: 80px !important;
-    font-size: 0.9rem;
-  }
-  
-  .form-control:focus {
-    box-shadow: none;
-  }
+  border: 1px solid;
+}
+
+.bottom-nav ul {
+  flex: 1;
+}
+
+/* change the background color */
+.bottom-nav {
+  background-color: var(--light-color);
+}
+
+/* change the brand and text color */
+.bottom-nav .navbar-text {
+  color: #000;
+}
+
+/* change the link color */
+.bottom-nav .navbar-nav .nav-link {
+  color: #000;
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* adding border-left to each link */
+.bottom-nav .navbar-nav .nav-link::before {
+  content: '';
+  padding: 0 0.3rem;
+  height: 10px;
+  border-left: 1px solid #ccc;
+}
+
+/* removing the bordeer from the first child */
+.bottom-nav .navbar-nav .no-border::before {
+  display: none;
+}
+
+/* change the color of active or hovered links */
+.bottom-nav .nav-item.active .nav-link,
+.bottom-nav .nav-item:focus .nav-link,
+.bottom-nav .nav-item:hover .nav-link {
+  color: var(--primary-color);
+}
+
+/* styling the search form control */
+.form-control {
+  border: none;
+  width: 80px !important;
+  font-size: 0.9rem;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
 
 @media (max-width: 990px) {
-  .top-nav {
-    height: 50px;
-    padding-bottom: 0.5rem;
-    align-items: center;
+    .top-nav {
+      height: 50px;
+      padding-bottom: 0.5rem;
+      align-items: center;
+    }
+  
+    .mobileMenu {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      transform: translateX(100%);
+      transition: all ease 0.25s;
+      z-index: 2;
+      background: white;;
+    }
+  
+    .open {
+      transform: translateX(0);
+    }
+  
+    /* adding border-left to each link */
+    .bottom-nav .navbar-nav {
+        border-left: 1px solid #eee;;
+      }
+      
+      .bottom-nav .navbar-nav .nav-link {
+          padding: .2rem 0.8rem;
+        }
+    
+    .bottom-nav .navbar-nav .nav-link::before {
+      display: none;
+    }
+  
+    .bottom-nav .navbar-nav .nav-link:hover{
+      background: var(--black-color)
+    }
+  
+    form {
+      order: -1;
+    }
+  
+    .form-control {
+      width: 100px !important;
+      height: 20px;
+      padding-left: 0;
+    }
+  
+    .logo {
+      width: 132px;
+    }
+  
+    .logo,
+    .top-right {
+      height: 25px;
+    }
+  
+    .weather {
+      display: none;
+    }
+  
+    .navbar-toggler {
+      display: block;
+    }
   }
-
-  .logo {
-    width: 132px;
-  }
-
-  .logo,
-  .top-right {
-    height: 25px;
-  }
-
-  .weather {
-    display: none;
-  }
-
-  .navbar-toggler {
-    display: block;
-  }
-}
