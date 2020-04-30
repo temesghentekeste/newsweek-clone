@@ -22,7 +22,6 @@ a {
 h2 {
   font-size: 1rem;
   padding: 0 0 0.8rem;
-  margin: 0;
   color: rgba(3, 3, 3, 0.4);
 }
 
@@ -44,12 +43,12 @@ h2 {
 }
 
 .card-title {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 600;
 }
 
 .card-body p {
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-family: var(--secondary-font);
 }
 
@@ -202,5 +201,5 @@ a:hover {
 
   .bottom-nav .navbar-nav .nav-link:hover {
     color: var(--primary-color);
-  }
+  } 
 }
