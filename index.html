@@ -35,7 +35,7 @@
   <body>
     <div class="container">
       <nav
-        class="top-nav bg-primary pl-4 pr-2 pb-3 d-flex justify-content-between align-items-end"
+        class="top-nav sticky-top bg-primary pl-4 pr-2 pb-3 d-flex justify-content-between align-items-end"
       >
         <div class="weather">
           <a href="#">
@@ -116,12 +116,12 @@
           <i class="fas fa-search fa-sm"></i>
         </form>
       </nav>
-      <div class="row">
+      <div class="row  justify-content-center">
         <main class="px-0 pr-0">
           <div class="row col-sm-12 order-sm-0 px-0 mx-0">
             <!-- Top Stories Section -->
             <section
-              class="top-story col-sm-12 col-md-6 col-lg-6 order-0 order-md-1"
+              class="top-story col-sm-12 col-md-6 col-lg-5 order-0 order-md-1"
             >
               <h2 class="pt-2 m-0">TOP STORY</h2>
               <div class="card border-0">
@@ -151,7 +151,7 @@
 
             <!-- Featured Stories Section -->
             <section
-              class="featured-stories col-sm-12 col-md-6 col-lg-3 order-1 order-md-0"
+              class="featured-stories col-sm-12 col-md-6 col-lg-3 order-1 order-md-0 mt-md-2"
             >
               <h2>FEATURED STORIES</h2>
               <div class="card border-0">
@@ -284,7 +284,7 @@
             <!-- End of Featured Stories Section -->
 
             <!-- Opinion Section -->
-            <section class="opinion col-sm-12 col-md-12 col-lg-3 order-2 ml-0">
+            <section class="opinion col-sm-12 col-md-12 col-lg-4 order-2 mx-0 mt-md-2">
               <h2>OPPINION</h2>
               <div class="card flex-row border-0 mb-2">
                 <img src="img/robert-reich.png" alt="" />
@@ -340,7 +340,7 @@
             </section>
             <!-- End Opinion Section -->
 
-            <section class="the-debate col-sm-12 col-md-12 col-lg-3 order-3 ml-0">
+            <section class="the-debate col-sm-12 col-md-12 col-lg-4 order-3 ml-0">
               <h2>The Debate</h2>
               <div class="debate-item d-flex flex-column">
                 <div class="debate-item-subject">
@@ -350,12 +350,15 @@
                   <a href="#" class="info">
                     Trump's Right. The WHO Is Not Fit for Purpose</a>
                 </div>
-                <div class="debate-item-author d-flex mt-2">
+                <div class="debate-item-author d-flex mt-2 position-relative">
                    <div class="author-info">
                     <span>By</span> <a href="#" class="author">Jamie Metzl </a>
                    </div>
-                   <img src="img/nigel-farage.png" alt="" class="ml-auto" >
+                   <img src="img/nigel-farage.png" alt="" class="position-absolute" >
                 </div>
+                </div>
+                <div class="vs rounded-circle mx-auto mt-1 mb-3">
+                  Vs
                 </div>
                 <div class="debate-item">
                   <div class="debate-item-subject">
@@ -365,11 +368,11 @@
                     <a href="#" class="info">
                       Defunding the WHO Mid-Pandemic Is Lunacy</a>
                   </div>
-                  <div class="debate-item-author">
+                  <div class="debate-item-author d-flex mt-2 position-relative">
                      <div class="author-info">
                       <span>By</span> <a href="#" class="author">Jamie Metzl </a>
                      </div>
-                     <img src="img/jamie-metzl.png" alt="">
+                     <img src="img/jamie-metzl.png" alt="" class="position-absolute">
                   </div>
                   </div>
             </section>
