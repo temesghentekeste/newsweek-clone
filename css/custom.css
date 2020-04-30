@@ -126,6 +126,47 @@ a:hover {
   text-decoration: none;
 }
 
+/* The Debate Section */
+.debate-item {
+  border-top: 3px solid var(--primary-color);
+  font-size: 17px;
+}
+.debate-item-subject img {
+  width: 95px;
+  height: 95px;
+  margin-right: 0.8rem;
+}
+
+.debate-item a {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.debate-item a:hover {
+  color: var(--black-color);
+}
+
+.debate-item-author {
+  font-size: 0.85rem;
+  border-top: 1px solid;
+  padding: 5px 0;
+  position: relative;
+}
+
+.debate-item-author::before {
+  content: '';
+  border-bottom: solid 1px blue;
+  width: 100%;
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+.debate-item-author img {
+  height: 63px;
+  width: 63px;
+}
+
 @media (min-width: 994px) {
   /* Navbar: top */
 
@@ -208,5 +249,5 @@ a:hover {
 
   .bottom-nav .navbar-nav .nav-link:hover {
     color: var(--primary-color);
-  } 
+  }
 }
