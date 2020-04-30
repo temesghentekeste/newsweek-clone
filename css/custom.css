@@ -115,6 +115,12 @@ h2 {
   background: white !important;
 }
 
+/* Opinion Section */
+.opinion img {
+  width: 63px;
+  height: 63px;
+}
+
 a:hover {
   color: var(--primary-color);
   text-decoration: none;
