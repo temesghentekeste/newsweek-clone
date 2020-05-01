@@ -75,6 +75,13 @@ h2 {
   z-index: 1;
 }
 
+.heros-caption {
+  background-color: #c2d4d7;
+ padding: 0 0.425rem;
+  font-size: 13px;
+  color: #333;
+}
+
 .news-summary {
   font-size: 0.9375rem;
   font-family: var(--secondary-font);
@@ -209,10 +216,19 @@ a:hover {
   color: #3581f4;
 }
 
+.heros .card-title{
+  color: #444;;
+  font-family: var(--tirtiary-font);
+  font-size: 1rem;
+}
 .hover-black:hover {
   color: var(--black-color);
 }
 
+.heros-caption:hover {
+  background: #333;
+  color: #c2d4d7;
+}
 @media (min-width: 994px) {
   /* Navbar: top */
 
