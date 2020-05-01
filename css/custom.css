@@ -6,6 +6,7 @@
   --primary-font: 'Roboto Condensed', sans-serif;
   --secondary-font: Arial, Helvetica, sans-serif;
   --tirtiary-font: 'Arimo', sans-serif;
+  --font-summary-heading: 1.0625rem;
 }
 
 body {
@@ -35,6 +36,10 @@ h2 {
   background: #fff;
 }
 
+.font-summary-heading {
+  font-size: var(--font-summary-heading);
+  line-height: 20px;
+}
 .container {
   max-width: 1314px;
 }
@@ -70,6 +75,12 @@ h2 {
   z-index: 1;
 }
 
+.news-summary {
+  font-size: 0.9375rem;
+  font-family: var(--secondary-font);
+  line-height: 20px;
+  color: #333;
+}
 
 /* Navbar */
 .top-nav {
@@ -196,6 +207,10 @@ a:hover {
 
 .sponsored-insight .caption {
   color: #3581f4;
+}
+
+.hover-black:hover {
+  color: var(--black-color);
 }
 
 @media (min-width: 994px) {
