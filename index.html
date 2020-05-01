@@ -32,99 +32,104 @@
       sizes="32x32"
     />
   </head>
-  <body>
-    <div class="container">
-      <nav
-        class="top-nav sticky-top bg-primary pl-4 pr-2 pb-3 d-flex justify-content-between align-items-end"
+  <body> 
+    <nav
+    class="top-nav sticky-top bg-primary mx-sm-0 pl-4 pr-2 pb-3 d-flex justify-content-between align-items-end"
+  >
+    <div class="weather">
+      <a href="#">
+        <img src="img/weather.png" alt="Weather Icon" />
+        <span class="country"
+          >24&deg; Kampala District, UG <i class="fas fa-chevron-right"></i
+        ></span>
+      </a>
+    </div>
+    <a href="#" class="logo">
+      <img class="img-fluid" src="img/main-logo.png" alt="Logo" />
+    </a>
+    <div
+      class="top-right d-flex justify-content-between align-items-center"
+    >
+      <a class="sign-in" href="#">Sign in</a>
+      <a
+        class="subscribe d-flex justify-content-center align-items-center"
+        href="#"
+        >Subscribe <i class="fas fa-chevron-right ml-1"></i
+      ></a>
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="collapse_target"
       >
-        <div class="weather">
-          <a href="#">
-            <img src="img/weather.png" alt="Weather Icon" />
-            <span class="country"
-              >24&deg; Kampala District, UG <i class="fas fa-chevron-right"></i
-            ></span>
-          </a>
-        </div>
-        <a href="#" class="logo">
-          <img class="img-fluid" src="img/main-logo.png" alt="Logo" />
-        </a>
-        <div
-          class="top-right d-flex justify-content-between align-items-center"
-        >
-          <a class="sign-in" href="#">Sign in</a>
-          <a
-            class="subscribe d-flex justify-content-center align-items-center"
-            href="#"
-            >Subscribe <i class="fas fa-chevron-right ml-1"></i
-          ></a>
-          <button
-            class="navbar-toggler"
-            data-toggle="collapse"
-            data-target="collapse_target"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </nav>
-      <nav class="navbar bottom-nav d-flex justify-content-between">
-        <ul
-          class="nav navbar-nav align-self-stretch d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-between"
-        >
-          <li class="nav-item">
-            <a class="nav-link no-border" href="#">U.S.</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">WORLD</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Business</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Tech & Science</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Culture</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Newsgeek</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Sports</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Health</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">The Debate</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Vantage </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Weather </a>
-          </li>
-        </ul>
-        <form
-          class="form-inline my-2 my-lg-0 d-flex align-items-center p-0 ml-3"
-        >
-          <input
-            class="form-control mr-sm-2 mr-md-0 p-md-0"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <i class="fas fa-search fa-sm"></i>
-        </form>
-      </nav>
-      <div class="row  justify-content-center">
-        <main class="px-0 pr-0">
-          <div class="row col-sm-12 order-sm-0 px-0 mx-0">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+  <div class="container px-0">
+    <nav class="navbar bottom-nav d-flex justify-content-between">
+      <ul
+        class="nav navbar-nav align-self-stretch d-flex flex-md-row justify-content-between"
+      >
+        <li class="nav-item">
+          <a class="nav-link no-border" href="#">U.S.</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">WORLD</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Business</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tech & Science</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Culture</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Newsgeek</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sports</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Health</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">The Debate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Vantage </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Weather </a>
+        </li>
+      </ul>
+      <form
+        class="form-inline my-2 my-lg-0 d-flex align-items-center p-0 ml-3"
+      >
+        <input
+          class="form-control mr-sm-2 mr-md-0 p-md-0"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <i class="fas fa-search fa-sm"></i>
+      </form>
+    </nav>
+  </div>
+
+    <div class="container-fluid mx-0 px-0">
+     
+      <div class="container-fluid px-0">
+        <main class="px-0 mx-0">
+          <div class="row  col-sm-12 order-sm-0 px-0 mx-0">
             <!-- Top Stories Section -->
             <section
-              class="top-story col-sm-12 col-md-6 col-lg-5 order-0 order-md-1"
+              class="top-story col-sm-12 col-md-6 col-lg-5 order-0 order-md-1 
+              mx-0 px-2 bg-white border-bottom"
             >
-              <h2 class="pt-2 m-0">TOP STORY</h2>
-              <div class="card border-0">
+              <h2 class="pt-2 mx-0">TOP STORY</h2>
+              <div class="card border-0 ">
                 <div class="image-wrapper">
                   <a class="caption" href="#">News</a>
                   <img
@@ -133,7 +138,7 @@
                     alt="top-stories-img-1"
                   />
                 </div>
-                <div class="card-body">
+                <div class="card-body px-0">
                   <h5 class="card-title">
                     Navy Sends Second Ship Into Disputed Waters After China
                     Claims It Scrambled Jets to Expel U.S. Destroyer
@@ -145,17 +150,17 @@
                   </p>
                 </div>
               </div>
-              
             </section>
             <!-- End of Top Stories Section -->
 
             <!-- Featured Stories Section -->
             <section
-              class="featured-stories col-sm-12 col-md-6 col-lg-3 order-1 order-md-0 mt-md-2"
+              class="featured-stories col-sm-12 col-md-6 col-lg-3 order-1 order-md-0 
+              mt-md-2 mt-3 px-2 py-3 bg-white"
             >
-              <h2>FEATURED STORIES</h2>
-              <div class="card border-0">
-                <div class="image-wrapper">
+              <h2 class="mt-2">FEATURED STORIES</h2>
+              <div class="card border-0 mb-4">
+                <div class="image-wrapper mx-0">
                   <a class="caption" href="#">World</a>
                   <img
                     class="card-img-top"
@@ -177,7 +182,7 @@
                   </p>
                 </div>
               </div>
-              <div class="card border-0">
+              <div class="card border-0 mb-4">
                 <div class="image-wrapper">
                   <a class="caption" href="#">World</a>
                   <img
@@ -201,7 +206,7 @@
                   </p>
                 </div>
               </div>
-              <div class="card border-0">
+              <div class="card border-0 mb-4">
                 <div class="image-wrapper">
                   <a class="caption" href="#">U.S.</a>
                   <img
@@ -224,7 +229,7 @@
                   </p>
                 </div>
               </div>
-              <div class="card border-0">
+              <div class="card border-0 mb-4">
                 <div class="image-wrapper">
                   <a class="caption" href="#">U.S.</a>
                   <img
@@ -247,7 +252,7 @@
                   </p>
                 </div>
               </div>
-              <div class="card border-0">
+              <div class="card border-0 mb-4">
                 <div class="image-wrapper">
                   <a class="caption" href="#">U.S.</a>
                   <img
@@ -284,12 +289,18 @@
             <!-- End of Featured Stories Section -->
 
             <!-- Opinion Section -->
-            <section class="opinion col-sm-12 col-md-12 col-lg-4 order-2 mx-0 mt-md-2">
-              <h2>OPPINION</h2>
-              <div class="card flex-row border-0 mb-2">
-                <img src="img/robert-reich.png" alt="" />
-
-                <div class="px-2">
+            <section
+              class="opinion col-sm-12 col-md-12 col-lg-4 order-2 
+              mx-0 mt-md-2 mt-4 mb-4 mx-0 p-2 pt-3  bg-white"
+            >
+              <h2 class="px-0 mx-0 py-0">OPPINION</h2>
+              <div class="media py-1 border-bottom font-weight-bold">
+                <img
+                  class="mr-3"
+                  src="img/robert-reich.png"
+                  alt="Generic placeholder image"
+                />
+                <div class="media-body">
                   <a href="#" class="card-text">
                     Coronavirus Is Creating a New Class Divide That Threatens Us
                     All
@@ -299,10 +310,13 @@
                   </div>
                 </div>
               </div>
-              <div class="card flex-row border-0 mb-2">
-                <img src="img/charlie-kirk.png" alt="" />
-
-                <div class="px-2">
+              <div class="media py-3 border-bottom font-weight-bold">
+                <img
+                  class="mr-3"
+                  src="img/charlie-kirk.png"
+                  alt="Generic placeholder image"
+                />
+                <div class="media-body">
                   <a href="#" class="card-text">
                     Special Interests Are Exploiting the Coronavirus Crisis for
                     Their Own Gain
@@ -312,10 +326,13 @@
                   </div>
                 </div>
               </div>
-              <div class="card flex-row border-0 mb-2">
-                <img src="img/yehudagurwitz.png" alt="" />
-
-                <div class="px-2">
+              <div class="media py-3 border-bottom font-weight-bold">
+                <img
+                  class="mr-3"
+                  src="img/yehudagurwitz.png"
+                  alt="Generic placeholder image"
+                />
+                <div class="media-body">
                   <a href="#" class="card-text">
                     Amid Crisis, Americans Choose Generosity Even in Scarcity
                   </a>
@@ -324,10 +341,13 @@
                   </div>
                 </div>
               </div>
-              <div class="card flex-row border-0 mb-2">
-                <img class="img-fluid" src="img/deanna-hoskins.png" alt="" />
-
-                <div class="px-2">
+              <div class="media py-3 pb-4 font-weight-bold">
+                <img
+                  class="mr-3"
+                  src="img/deanna-hoskins.png"
+                  alt="Generic placeholder image"
+                />
+                <div class="media-body">
                   <a href="#" class="card-text">
                     Inmates Are Being Released Due to COVID-19. Where Can They
                     Go Next?
@@ -339,46 +359,177 @@
               </div>
             </section>
             <!-- End Opinion Section -->
-
-            <section class="the-debate col-sm-12 col-md-12 col-lg-4 order-3 ml-0">
+            <!-- Debate Section -->
+            <section
+              class="the-debate col-sm-12 col-md-12 col-lg-4 order-3 ml-0 
+              p-2 pt-3 bg-white"
+            >
               <h2>The Debate</h2>
-              <div class="debate-item d-flex flex-column">
-                <div class="debate-item-subject">
-                  <a href="#" class="image">
-                    <img src="img/trump-pence.jpg" alt="" class="img-fluid">
+              <div class="debate-item pb-4">
+                <div class="media mb-2 pb-4">
+                  <a href="#">
+                    <img
+                      class="align-self-start mr-3 img-fluid"
+                      height="95"
+                      width="94"
+                      src="img/trump-pence.jpg"
+                      alt="Generic placeholder image"
+                    />
                   </a>
-                  <a href="#" class="info">
-                    Trump's Right. The WHO Is Not Fit for Purpose</a>
+                  <div class="media-body align-self-center font-weight-bold">
+                    <a href="#" class="info">
+                      Defunding the WHO Mid-Pandemic Is Lunacy</a
+                    >
+                  </div>
                 </div>
                 <div class="debate-item-author d-flex mt-2 position-relative">
-                   <div class="author-info">
-                    <span>By</span> <a href="#" class="author">Jamie Metzl </a>
-                   </div>
-                   <img src="img/nigel-farage.png" alt="" class="position-absolute" >
+                  <div class="author-info">
+                    <span>By</span>
+                    <a href="#" class="font-weight-bold">Nigel Farage </a>
+                  </div>
+                  <a href="#">
+                    <img
+                      src="img/nigel-farage.png"
+                      alt=""
+                      class="position-absolute"
+                  /></a>
                 </div>
-                </div>
-                <div class="vs rounded-circle mx-auto mt-1 mb-3">
-                  Vs
-                </div>
-                <div class="debate-item">
-                  <div class="debate-item-subject">
-                    <a href="#" class="image">
-                      <img src="img/donald-trump.jpg" alt="" class="img-fluid">
-                    </a>
+              </div>
+              <div class="vs rounded-circle mx-auto mt-1 mb-3">
+                Vs
+              </div>
+              <div class="debate-item pb-4">
+                <div class="media mb-2 pb-4">
+                  <a href="#"
+                    ><img
+                      class="align-self-start mr-3 img-fluid"
+                      width="94px"
+                      height="95px"
+                      src="img/donald-trump.jpg"
+                      alt="Generic placeholder image"
+                  /></a>
+                  <div class="media-body align-self-center font-weight-bold">
                     <a href="#" class="info">
-                      Defunding the WHO Mid-Pandemic Is Lunacy</a>
+                      Defunding the WHO Mid-Pandemic Is Lunacy</a
+                    >
                   </div>
-                  <div class="debate-item-author d-flex mt-2 position-relative">
-                     <div class="author-info">
-                      <span>By</span> <a href="#" class="author">Jamie Metzl </a>
-                     </div>
-                     <img src="img/jamie-metzl.png" alt="" class="position-absolute">
+                </div>
+                <div class="debate-item-author d-flex mt-2 position-relative">
+                  <div class="author-info">
+                    <span>By</span>
+                    <a href="#" class="font-weight-bold">Jamie Metzl </a>
                   </div>
-                  </div>
+                  <a href="#">
+                    <img
+                      src="img/jamie-metzl.png"
+                      alt=""
+                      class="position-absolute"
+                    />
+                  </a>
+                </div>
+              </div>
             </section>
-            <!-- Debate Section -->
-
             <!-- End of Debate Section -->
+
+            <!-- Sponsored Insight Section -->
+            <aside
+              class="sponsored-insight insight-1 col-sm-12 col-md-12 col-lg-4 
+              mt-4 order-4 ml-0 px-3 bg-white"
+            >
+              <div class="card mb-sm-3 mt-4">
+                <div class="image-wrapper">
+                  <a class="caption" href="#">Sponsored Insight</a>
+                  <img
+                    class="card-img-top"
+                    src="img/cybersecurity-vantage-hp-sponsor.jpg"
+                    alt="Card image cap"
+                  />
+                </div>
+                <div class="card-body p-3 pt-1">
+                  <a href="#">
+                    <h5 class="card-title">
+                      Weathering the Perfect Storm
+                    </h5>
+                  </a>
+                  <p class="card-text">
+                    COVID-19 is not our only enemy. While the world confronts a
+                    pandemic, our critical infrastructure is vulnerable to
+                    cyberattack. Read this new report on where the weak points
+                    are and how to strengthen defenses against terrorists and
+                    cyber-criminals.
+                  </p>
+                </div>
+              </div>
+              <div class="card mb-sm-3">
+                <div class="image-wrapper">
+                  <a class="caption" href="#">Sponsored Insight</a>
+                  <img
+                    class="card-img-top"
+                    src="img/worlds-best-hospitals-2020.png"
+                    alt="Card image cap"
+                  />
+                </div>
+                <div class="card-body p-3 pt-1">
+                  <a href="#">
+                    <h5 class="card-title">
+                      World's Best Hospitals 2020
+                    </h5>
+                  </a>
+                  <p class="card-text">
+                    Newsweek partnered with Statista Inc. to rank the leading
+                    hospitals in 21 countries
+                  </p>
+                </div>
+              </div>
+              <div class="card mb-sm-3">
+                <div class="image-wrapper">
+                  <a class="caption" href="#">Sponsored Insight</a>
+                  <img
+                    class="card-img-top"
+                    src="img/cathedral-john-connon-school.jpg"
+                    alt="Card image cap"
+                  />
+                </div>
+                <div class="card-body p-3 pt-1">
+                  <a href="#">
+                    <h5 class="card-title">
+                      What is an IB Private Education and Why is it so
+                      Important?
+                    </h5>
+                  </a>
+                  <p class="card-text">
+                    The aim of the IB is to offer the best possible
+                    international education for students of all backgrounds and
+                    from every part of the world. Find out more.
+                  </p>
+                </div>
+              </div>
+              <div class="card mb-sm-3">
+                <div class="image-wrapper">
+                  <a class="caption" href="#">Sponsored Insight</a>
+                  <img
+                    class="card-img-top"
+                    src="img/guest-house-oscala.jpg"
+                    alt="Card image cap"
+                  />
+                </div>
+                <div class="card-body p-3 pt-1">
+                  <a href="#">
+                    <h5 class="card-title">
+                      Who Leads the Field in Dependency Treatment in 2020?
+                    </h5>
+                  </a>
+                  <p class="card-text">
+                    When seeking guidance on beating an addiction, there are
+                    many things to consider. Where do you go to ensure that you
+                    will not just turn the corner, but keep carrying on down the
+                    right road for the rest of your life? Find out more.
+                  </p>
+                </div>
+              </div>
+            </aside>
+
+            <!-- End of Sponsored Insight Section -->
           </div>
         </main>
       </div>
