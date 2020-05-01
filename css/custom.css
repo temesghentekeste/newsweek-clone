@@ -77,7 +77,7 @@ h2 {
 
 .heros-caption {
   background-color: #c2d4d7;
- padding: 0 0.425rem;
+  padding: 0 0.425rem;
   font-size: 13px;
   color: #333;
 }
@@ -202,6 +202,8 @@ a:hover {
   text-align: center;
 }
 
+/* Sponsored Insight */
+
 .sponsored-insight h5 {
   font-size: 1.25rem;
 }
@@ -212,15 +214,47 @@ a:hover {
   text-decoration-color: var(--primary-color);
 }
 
+.sponsored-insight .btn-signup-custom:hover {
+  color: #fff;
+}
+
 .sponsored-insight .caption {
   color: #3581f4;
 }
 
-.heros .card-title{
-  color: #444;;
+/* Heros Section */
+.heros .card-title {
+  color: #444;
   font-family: var(--tirtiary-font);
   font-size: 1rem;
 }
+
+/* Sponsored Insight: Newsletter Sign up*/
+.newsletter-signup {
+  font: bold 18px/18px 'Roboto Condensed', sans-serif;
+  padding: 20px;
+  background-color: #f4f5f6;
+  max-width: 300px;
+  margin: 0 auto 30px;
+}
+
+.newsweek-icon {
+  width: 29px;
+  height: 28px;
+  margin-right: 10px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+    no-repeat #f72210;
+}
+
+.btn-signup-custom {
+  padding: 10px 10px 12px;
+  background: #555;
+  color: #fff;
+  width: fit-content;
+  margin: 0 0 10px;
+}
+
+
 .hover-black:hover {
   color: var(--black-color);
 }
