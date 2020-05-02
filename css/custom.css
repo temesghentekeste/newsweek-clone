@@ -156,7 +156,9 @@ a:hover {
   font-size: 17px;
 }
 
-.debate-item-subject img {
+.debate-item .media img,
+.more-stories img,
+.latest-news .media img {
   width: 95px;
   height: 95px;
   margin-right: 0.8rem;
@@ -229,6 +231,12 @@ a:hover {
   font-size: 1rem;
 }
 
+.heros .card-img-top {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
 /* Sponsored Insight: Newsletter Sign up*/
 .newsletter-signup {
   font: bold 18px/18px 'Roboto Condensed', sans-serif;
@@ -254,7 +262,6 @@ a:hover {
   margin: 0 0 10px;
 }
 
-
 .hover-black:hover {
   color: var(--black-color);
 }
@@ -262,6 +269,15 @@ a:hover {
 .heros-caption:hover {
   background: #333;
   color: #c2d4d7;
+}
+
+@media (min-width: 690px) {
+  /* Heros */
+  .heros .card-img-top {
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+  }
 }
 @media (min-width: 994px) {
   /* Navbar: top */
