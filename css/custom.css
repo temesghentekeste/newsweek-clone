@@ -290,6 +290,12 @@ a:hover {
   color: var(--primary-color);
 }
 
+.in-the-megazine .img-align {
+  width: 100%;
+  height: 45vh;
+  object-fit: cover;
+}
+
 .hover-none {
   color: var(--primary-color);
 }
@@ -313,7 +319,8 @@ a:hover {
 
 .featured-stories h5:hover,
 .top-story h5:hover,
-.in-the-megazine h5:hover {
+.in-the-megazine h5:hover,
+.editors-pick h5:hover {
   color: var(--black-color);
   text-decoration: underline;
   text-decoration-color: var(--primary-color);
