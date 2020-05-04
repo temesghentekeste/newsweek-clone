@@ -36,10 +36,15 @@ h2 {
   background: #fff;
 }
 
+.black-text {
+  color: var(--black-color);
+}
+
 .font-summary-heading {
   font-size: var(--font-summary-heading);
   line-height: 20px;
 }
+
 .container {
   max-width: 1314px;
 }
@@ -73,6 +78,15 @@ h2 {
   bottom: 0;
   left: 0;
   z-index: 1;
+}
+
+.features-caption {
+  display: inline-block;
+  font-weight: bold;
+  background: #f72210;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0 12px;
 }
 
 .heros-caption {
@@ -156,18 +170,6 @@ a:hover {
   font-size: 17px;
 }
 
-.debate-item .media img,
-.more-stories img,
-.latest-news .media img {
-  width: 95px;
-  height: 95px;
-  margin-right: 0.8rem;
-}
-
-.debate-item a:hover {
-  color: var(--black-color);
-}
-
 .debate-item-author {
   font-size: 0.85rem;
   border-top: 1px solid #777;
@@ -216,10 +218,6 @@ a:hover {
   text-decoration-color: var(--primary-color);
 }
 
-.sponsored-insight .btn-signup-custom:hover {
-  color: #fff;
-}
-
 .sponsored-insight .caption {
   color: #3581f4;
 }
@@ -237,7 +235,7 @@ a:hover {
   object-fit: cover;
 }
 
-/* Sponsored Insight: Newsletter Sign up*/
+/* Sponsored Insight: Newsletter Sign up */
 .newsletter-signup {
   font: bold 18px/18px 'Roboto Condensed', sans-serif;
   padding: 20px;
@@ -250,7 +248,8 @@ a:hover {
   width: 29px;
   height: 28px;
   margin-right: 10px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+  background:
+    url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
     no-repeat #f72210;
 }
 
@@ -262,6 +261,39 @@ a:hover {
   margin: 0 0 10px;
 }
 
+.more-stories img,
+.debate-item .media img,
+.latest-news .media img {
+  width: 95px;
+  height: 95px;
+  margin-right: 0.8rem;
+}
+
+/* Bottom Section: */
+
+/* In the megazine */
+.in-the-megazine h2 {
+  font-size: 1.2rem;
+}
+
+.in-the-megazine h5 {
+  font-size: 1.125rem;
+}
+
+.in-the-megazine .see-all-text-hover:hover {
+  background: #ccc;
+}
+
+.in-the-megazine .caption {
+  background: #fff;
+  width: 100%;
+  color: var(--primary-color);
+}
+
+.hover-none {
+  color: var(--primary-color);
+}
+
 .hover-black:hover {
   color: var(--black-color);
 }
@@ -271,6 +303,22 @@ a:hover {
   color: #c2d4d7;
 }
 
+.sponsored-insight .btn-signup-custom:hover {
+  color: #fff;
+}
+
+.debate-item a:hover {
+  color: var(--black-color);
+}
+
+.featured-stories h5:hover,
+.top-story h5:hover,
+.in-the-megazine h5:hover {
+  color: var(--black-color);
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
+}
+
 @media (min-width: 690px) {
   /* Heros */
   .heros .card-img-top {
@@ -278,7 +326,14 @@ a:hover {
     height: 15vh;
     object-fit: cover;
   }
+
+  .in-the-megazine .img-align {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+  }
 }
+
 @media (min-width: 994px) {
   /* Navbar: top */
 
