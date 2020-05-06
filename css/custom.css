@@ -189,11 +189,6 @@ h5 {
   height: 63px;
 }
 
-a:hover {
-  color: var(--primary-color);
-  text-decoration: none;
-}
-
 /* The Debate Section */
 .debate-item {
   border-top: 3px solid var(--primary-color);
@@ -241,12 +236,6 @@ a:hover {
 .sponsored-insight h5,
 .in-the-megazine h5 {
   font-size: 1.25rem;
-}
-
-.sponsored-insight a:hover {
-  color: var(--black-color);
-  text-decoration: underline;
-  text-decoration-color: var(--primary-color);
 }
 
 .sponsored-insight .caption {
@@ -310,8 +299,6 @@ a:hover {
   height: 160px !important;
 }
 
-
-
 .subscribe-img-top {
   left: 33px;
   top: 11px;
@@ -364,8 +351,6 @@ a:hover {
 
 /* newsletter Section */
 
-
-
 .newsletter-section .newsletter-text p {
   font-size: 0.95rem;
   font-family: var(--secondary-font);
@@ -377,6 +362,20 @@ a:hover {
   padding: 10px 12px;
 }
 
+/* footer section */
+footer {
+  min-height: 194px;
+}
+
+footer .logo {
+  width: 236px;
+  height: 35px;
+}
+
+footer a {
+  border-right: none !important;
+}
+
 .hover-black:hover {
   color: var(--black-color);
 }
@@ -384,6 +383,17 @@ a:hover {
 .heros-caption:hover {
   background: #333;
   color: #c2d4d7;
+}
+
+a:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.sponsored-insight a:hover {
+  color: var(--black-color);
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
 }
 
 .sponsored-insight .btn-signup-custom:hover {
@@ -408,6 +418,17 @@ a:hover {
   text-decoration-color: var(--primary-color);
 }
 
+footer .fab {
+  color: #bbb;
+}
+
+footer .fa-facebook-square:hover {
+  color: #3b5998;
+}
+
+footer .fa-twitter:hover, footer .fa-instagram:hover, .fa-linkedin:hover {
+  color: #1da1f2;
+}
 @media (min-width: 690px) {
   .subscribe-container {
     justify-content: space-between;
@@ -443,12 +464,24 @@ a:hover {
   .newsletter-image-wrapper img {
     height: 161px !important;
   }
- 
+
+  /* footer */
+  .bf-upper a::after,
+  .bf-lower a::after {
+    content: '';
+    margin-left: 0.5rem;
+    height: 10px;
+    border-left: 1px solid #ddd;
+  }
+
+  /* removing the bordeer from the first child */
+  .bottom-footer .border-none::after {
+    display: none !important;
+  }
 }
 
 @media (min-width: 992px) {
   /* Navbar: top */
-
   .top-nav {
     height: 95px;
   }
