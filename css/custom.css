@@ -419,16 +419,19 @@ a:hover {
 }
 
 footer .fab {
-  color: #bbb;
+  color: #555;
 }
 
 footer .fa-facebook-square:hover {
   color: #3b5998;
 }
 
-footer .fa-twitter:hover, footer .fa-instagram:hover, .fa-linkedin:hover {
+footer .fa-twitter:hover,
+footer .fa-instagram:hover,
+.fa-linkedin:hover {
   color: #1da1f2;
 }
+
 @media (min-width: 690px) {
   .subscribe-container {
     justify-content: space-between;
@@ -461,6 +464,7 @@ footer .fa-twitter:hover, footer .fa-instagram:hover, .fa-linkedin:hover {
 }
 
 @media (min-width: 768px) {
+  
   .newsletter-image-wrapper img {
     height: 161px !important;
   }
@@ -498,9 +502,10 @@ footer .fa-twitter:hover, footer .fa-instagram:hover, .fa-linkedin:hover {
 
   .weather {
     display: block;
+    height: inherit;
   }
 
-  .weather span {
+  .weather span, .weather p {
     color: #fff;
     font-size: 0.9rem;
   }
