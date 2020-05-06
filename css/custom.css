@@ -52,6 +52,10 @@ h5 {
   color: var(--black-color);
 }
 
+.dark-text {
+  color: #333;
+}
+
 .bottom-section-title {
   color: var(--primary-color);
   font-size: 1.34rem;
@@ -195,6 +199,10 @@ h5 {
   font-size: 17px;
 }
 
+.debate-item-2 {
+  border-top-color: #1c87fb;
+}
+
 .debate-item-author {
   font-size: 0.85rem;
   border-top: 1px solid #777;
@@ -329,8 +337,8 @@ h5 {
   font-size: 1.2rem;
 }
 
-.in-the-megazine .see-all-text-hover:hover {
-  background: #ccc;
+.in-the-megazine .see-all-text {
+  height: 100%;
 }
 
 .in-the-megazine .caption {
@@ -376,6 +384,10 @@ footer a {
   border-right: none !important;
 }
 
+.bottom-footer a:hover {
+  color: var(--black-color);
+}
+
 .hover-black:hover {
   color: var(--black-color);
 }
@@ -396,6 +408,11 @@ a:hover {
   text-decoration-color: var(--primary-color);
 }
 
+.sponsored-insight .caption:hover {
+  text-decoration: none;
+  color: #3581f4;
+}
+
 .sponsored-insight .btn-signup-custom:hover {
   color: #fff;
 }
@@ -412,10 +429,18 @@ a:hover {
 .top-story h5:hover,
 .in-the-megazine h5:hover,
 .editors-pick h5:hover,
-.us h5:hover {
+.us h5:hover,
+.section-picks h5:hover,
+.more-stories .media-body a:hover {
   color: var(--black-color);
   text-decoration: underline;
   text-decoration-color: var(--primary-color);
+}
+
+.in-the-megazine .see-all-text:hover {
+  background: #ccc;
+  text-decoration: none;
+  color: var(--black-color);
 }
 
 footer .fab {
@@ -449,13 +474,6 @@ footer .fa-instagram:hover,
     flex: 1;
   }
 
-  /* Heros */
-  .heros .card-img-top {
-    width: 100%;
-    height: 15vh;
-    object-fit: cover;
-  }
-
   .in-the-megazine .img-align {
     width: 100%;
     height: 40vh;
@@ -464,7 +482,12 @@ footer .fa-instagram:hover,
 }
 
 @media (min-width: 768px) {
-  
+  /* Heros */
+  .heros .card-img-top {
+    height: 15vh;
+    object-fit: cover;
+  }
+
   .newsletter-image-wrapper img {
     height: 161px !important;
   }
@@ -505,7 +528,8 @@ footer .fa-instagram:hover,
     height: inherit;
   }
 
-  .weather span, .weather p {
+  .weather span,
+  .weather p {
     color: #fff;
     font-size: 0.9rem;
   }
