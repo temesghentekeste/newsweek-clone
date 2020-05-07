@@ -32,4 +32,3 @@ $RECYCLE.BIN/
 node_modules/
 package-lock.json
 test.html
-README.md

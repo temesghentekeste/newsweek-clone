@@ -3,13 +3,13 @@
 This project is a clone of the home page of <a href="https://www.newsweek.com/"  target="_blank">newsweek.com</a>: 
 
 ## Desktop
-![screenshot](https://github.com/temesghentekeste/thenextweb-clone/blob/homepage/images/app-screenshot.png)
+![screenshot](https://github.com/temesghentekeste/newsweek-clone/blob/homepage/images/app-screenshot.png)
 
 ## Tablet
-![screenshot](https://github.com/temesghentekeste/thenextweb-clone/blob/homepage/images/app-screenshot-tablet.png)
+![screenshot](https://github.com/temesghentekeste/newsweek-clone/blob/homepage/images/app-screenshot-tablet.png)
 
 ## Mobile
-![screenshot](https://github.com/temesghentekeste/thenextweb-clone/blob/homepage/images/app-screenshot-mobile.png)
+![screenshot](https://github.com/temesghentekeste/newsweek-clone/blob/homepage/images/app-screenshot-mobile.png)
 
 ## Built With
 
@@ -20,7 +20,7 @@ This project is a clone of the home page of <a href="https://www.newsweek.com/" 
 
 ## Live Demo
 
-<a href="https://rawcdn.githack.com/temesghentekeste/thenextweb-clone/31d0f0eec6c8df4f53796a7734b09342a695ce5a/index.html" target="_blank">Live version</a>
+<a href="https://rawcdn.githack.com/temesghentekeste/newsweek-clone/7d988032de108cd63b95ef7c7e10f52ad34c615d/index.html" target="_blank">Live version</a>
 
 ## Authors
 
@@ -31,18 +31,13 @@ This project is a clone of the home page of <a href="https://www.newsweek.com/" 
 - Linkedin: [linkedin](https://www.linkedin.com/in/temesghen-tekeste-bahta-8b5243193/)
 - Email:  mail.temesghen.tekeste@gmail.com
 
-👤 **Rashid Mammadli**
-
-- Github: [8Bts](https://github.com/8Bts)
-- Twitter: [@Rasheed49705929](https://twitter.com/Rasheed49705929)
-- Linkedin: [linkedin](https://www.linkedin.com/in/rashid-mammadli-62b9b1171/)
-- Email: mcmizze@yahoo.com
+👤 
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the <a href="https://github.com/temesghentekeste/thenextweb-clone/issues" target="_blank">issues page</a>.
+Feel free to check the <a href="https://github.com/temesghentekeste/newsweek-clone/issues/2" target="_blank">issues page</a>.
 
 ## Show your support
 
