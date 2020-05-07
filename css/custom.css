@@ -133,12 +133,11 @@ h5 {
 }
 
 .top-nav-onScroll {
-  align-items: end;
   width: 100%;
   height: 26px;
   padding-top: 2rem;
   position: fixed;
-  top: 0px;
+  top: 0;
   z-index: 900;
   align-items: flex-end;
 }
@@ -158,7 +157,7 @@ h5 {
   padding-bottom: 6px 12px 10px;
   width: 130px;
   margin-left: 1rem;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .logo {
@@ -289,7 +288,8 @@ h5 {
   width: 29px;
   height: 28px;
   margin-right: 10px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+  background:
+    url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
     no-repeat #f72210;
 }
 
@@ -536,7 +536,7 @@ footer .fa-instagram:hover,
     height: 60px;
     text-align: center;
     position: relative;
-    left:14.5%;
+    left: 14.5%;
     transform: translateX(-50%);
   }
 
