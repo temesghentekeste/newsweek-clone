@@ -33,8 +33,11 @@
     />
   </head>
   <body>
-    <nav
-      class="top-nav sticky-top bg-primary mx-sm-0 pl-4 pr-2 pb-3 d-flex justify-content-between align-items-end"
+    <div class="top-nav-container container px-0">
+      <nav
+      class="red-nav top-nav  bg-primary 
+      mx-sm-0 pl-4 pr-2 pb-3 
+      d-flex justify-content-between align-items-end sticky-top"
     >
       <div
         class="weather d-none p-b-0 d-lg-flex flex-column justify-content-end"
@@ -47,8 +50,8 @@
         </a>
         <p class="pl-4 ml-1 mb-0 pb-0">Wed, May 06, 2020</p>
       </div>
-      <a href="#" class="logo">
-        <img class="img-fluid" src="img/main-logo.png" alt="Logo" />
+      <a href="#" class="logo main-logo-container">
+        <img class="main-logo img-fluid" src="img/main-logo.png" alt="Logo" />
       </a>
       <div class="top-right d-flex justify-content-between align-items-center">
         <a class="sign-in" href="#">Sign in</a>
@@ -66,6 +69,7 @@
         </button>
       </div>
     </nav>
+    </div>
     <div class="container px-0 d-md-none d-lg-block">
       <nav class="navbar bottom-nav d-flex justify-content-between">
         <ul
@@ -2360,7 +2364,7 @@
                   <div class="card-body p-1 pb-0">
                     <a
                       href="#"
-                      class="d-flex justify-content-center p-2  bg-lightdark see-all-text"
+                      class="d-flex justify-content-center p-2 bg-lightdark see-all-text"
                     >
                       <h5 class="card-title mr-2 p-0 mb-0 text-decoration-none">
                         See all features<i
@@ -2531,7 +2535,9 @@
               class="text-uppercase d-flex align-items-start justify-content-center border-bottom mb-3"
             >
               <span class="newsweek-icon"></span>
-              <h2 class="font-weight-bold dark-text font-3 pt-1">EDITOR'S PICK</h2>
+              <h2 class="font-weight-bold dark-text font-3 pt-1">
+                EDITOR'S PICK
+              </h2>
             </div>
             <div class="row">
               <div class="col-sm-12 col-md-6 col-lg-3">
@@ -2560,213 +2566,208 @@
                     </p>
                   </div>
                 </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="card border-0 mb-4">
-                    <div class="image-wrapper mx-0">
-                      <a class="caption" href="#">NEWS</a>
-                      <a href="#">
-                        <img
-                          class="card-img-top"
-                          src="img/hubei-china-coronavirus-medical-staff-march-2020.jpg"
-                          alt="Card image cap"
-                        />
-                      </a>
-                    </div>
-                    <div class="card-body p-0 pt-1">
-                      <a href="#">
-                        <h5 class="card-title">
-                          Over 1 Million Coronavirus Patients Have Recovered
-                          Around the World
-                        </h5>
-                      </a>
-                      <p class="card-text">
-                        Germany, Spain, China and Italy are also among the
-                        countries with the highest number of reported recoveries
-                        to date.
-                      </p>
-                    </div>
-                  </div>
-            </div>
-              
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="card border-0 mb-4">
-                    <div class="image-wrapper mx-0">
-                      <a class="caption" href="#">World</a>
-                      <a href="#">
-                        <img
-                          class="card-img-top"
-                          src="img/us-president-donald-trump.jpg"
-                          alt="Card image cap"
-                        />
-                      </a>
-                    </div>
-                    <div class="card-body p-0 pt-1">
-                      <a href="#">
-                        <h5 class="card-title">
-                          Trump: Remdesivir Was Approved Because It's 'the Hot
-                          Thing' in the Media
-                        </h5>
-                      </a>
-                      <p class="card-text">
-                        The president announced that Gilead had been granted the
-                        emergency use authorization and is enthusiastic about the
-                        drug.
-                      </p>
-                    </div>
-                  </div>
-            </div>
-              
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="card border-0 mb-4">
-                    <div class="image-wrapper mx-0">
-                      <a class="caption" href="#">ESSAYS</a>
-                      <a href="#">
-                        <img
-                          class="card-img-top"
-                          src="img/multiple-sclerosis-coronavirus-lockdown-marathon-running.jpg"
-                          alt="Card image cap"
-                        />
-                      </a>
-                    </div>
-                    <div class="card-body p-0 pt-1">
-                      <a href="#">
-                        <h5 class="card-title">
-                          'I've Run 11 Marathons but Just Received a Multiple
-                          Sclerosis Diagnosis'
-                        </h5>
-                      </a>
-                      <p class="card-text">
-                        Over the past couple of years I'd begun to get jelly legs
-                        while running, but I never in a million years thought it
-                        was multiple sclerosis.
-                      </p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="card border-0 mb-4">
-                    <div class="image-wrapper mx-0">
-                      <a class="caption" href="#">World</a>
-                      <a href="#">
-                        <img
-                          class="card-img-top"
-                          src="img/donald-trump-kim-jong-un.jpg"
-                          alt="Card image cap"
-                        />
-                      </a>
-                    </div>
-                    <div class="card-body p-0 pt-1">
-                      <a href="#">
-                        <h5 class="card-title">
-                          President Trump Says He's Glad Kim Jong Un Is Well After
-                          Absence
-                        </h5>
-                      </a>
-                      <p class="card-text">
-                        "I, for one, am glad to see he is back, and well!," Trump
-                        tweeted about Kim Jong Un on Saturday after the North
-                        Korean leader emerged following a two-week disappearance.
-                      </p>
-                    </div>
-                 
-                </div>
-            </div>
-              
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="card border-0 mb-4">
-                    <div class="image-wrapper mx-0">
-                      <a class="caption" href="#">U.S.</a>
-                      <a href="#">
-                        <img
-                          class="card-img-top"
-                          src="img/warren-buffett.jpg"
-                          alt="Card image cap"
-                        />
-                      </a>
-                    </div>
-                    <div class="card-body p-0 pt-1">
-                      <a href="#">
-                        <h5 class="card-title">
-                          Warren Buffett Says Buying Airline Stocks a 'Mistake'
-                          During a Pandemic
-                        </h5>
-                      </a>
-                      <p class="card-text">
-                        Billionaire investor Warren Buffett's company sold off
-                        stocks in four major U.S. airlines. During an annual
-                        meeting Saturday through a live-stream, he called the
-                        investments during a pandemic "a mistake."
-                      </p>
-                    </div>
-                  
-                </div>
-            </div>
-              
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="card border-0 mb-4">
-                    <div class="image-wrapper mx-0">
-                      <a class="caption" href="#">World</a>
-                      <a href="#">
-                        <img
-                          class="card-img-top"
-                          src="img/tanker.jpg"
-                          alt="Card image cap"
-                        />
-                      </a>
-                    </div>
-                    <div class="card-body p-0 pt-1">
-                      <a href="#">
-                        <h5 class="card-title">
-                          Iranian Nationals Charged in Attempt to Help Country
-                          Evade Sanctions
-                        </h5>
-                      </a>
-                      <p class="card-text">
-                        One defendant is believed to be an associate of high-level
-                        officials in the Islamic Revolutionary Guard Corps' Quds
-                        Force.
-                      </p>
-                    </div>
-                  </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-3">
-
                 <div class="card border-0 mb-4">
-                    <div class="image-wrapper mx-0">
-                      <a class="caption" href="#">POLETICS</a>
-                      <a href="#">
-                        <img
-                          class="card-img-top"
-                          src="img/mitt-romney-patriot-pay-bonus.jpg"
-                          alt="Card image cap"
-                        />
-                      </a>
-                    </div>
-                    <div class="card-body p-0 pt-1">
-                      <a href="#">
-                        <h5 class="card-title">
-                          Romney Proposes $12/Hour Bonus for All U.S. Essential
-                          Workers
-                        </h5>
-                      </a>
-                      <p class="card-text">
-                        The Utah senator proposed the bonus for all coronavirus
-                        pandemic essential workers, ranging from hospital
-                        employees to grocery store staff.
-                      </p>
-                    </div>
+                  <div class="image-wrapper mx-0">
+                    <a class="caption" href="#">NEWS</a>
+                    <a href="#">
+                      <img
+                        class="card-img-top"
+                        src="img/hubei-china-coronavirus-medical-staff-march-2020.jpg"
+                        alt="Card image cap"
+                      />
+                    </a>
                   </div>
+                  <div class="card-body p-0 pt-1">
+                    <a href="#">
+                      <h5 class="card-title">
+                        Over 1 Million Coronavirus Patients Have Recovered
+                        Around the World
+                      </h5>
+                    </a>
+                    <p class="card-text">
+                      Germany, Spain, China and Italy are also among the
+                      countries with the highest number of reported recoveries
+                      to date.
+                    </p>
+                  </div>
+                </div>
               </div>
-              
-                
-              
-              
+
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card border-0 mb-4">
+                  <div class="image-wrapper mx-0">
+                    <a class="caption" href="#">World</a>
+                    <a href="#">
+                      <img
+                        class="card-img-top"
+                        src="img/us-president-donald-trump.jpg"
+                        alt="Card image cap"
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body p-0 pt-1">
+                    <a href="#">
+                      <h5 class="card-title">
+                        Trump: Remdesivir Was Approved Because It's 'the Hot
+                        Thing' in the Media
+                      </h5>
+                    </a>
+                    <p class="card-text">
+                      The president announced that Gilead had been granted the
+                      emergency use authorization and is enthusiastic about the
+                      drug.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card border-0 mb-4">
+                  <div class="image-wrapper mx-0">
+                    <a class="caption" href="#">ESSAYS</a>
+                    <a href="#">
+                      <img
+                        class="card-img-top"
+                        src="img/multiple-sclerosis-coronavirus-lockdown-marathon-running.jpg"
+                        alt="Card image cap"
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body p-0 pt-1">
+                    <a href="#">
+                      <h5 class="card-title">
+                        'I've Run 11 Marathons but Just Received a Multiple
+                        Sclerosis Diagnosis'
+                      </h5>
+                    </a>
+                    <p class="card-text">
+                      Over the past couple of years I'd begun to get jelly legs
+                      while running, but I never in a million years thought it
+                      was multiple sclerosis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card border-0 mb-4">
+                  <div class="image-wrapper mx-0">
+                    <a class="caption" href="#">World</a>
+                    <a href="#">
+                      <img
+                        class="card-img-top"
+                        src="img/donald-trump-kim-jong-un.jpg"
+                        alt="Card image cap"
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body p-0 pt-1">
+                    <a href="#">
+                      <h5 class="card-title">
+                        President Trump Says He's Glad Kim Jong Un Is Well After
+                        Absence
+                      </h5>
+                    </a>
+                    <p class="card-text">
+                      "I, for one, am glad to see he is back, and well!," Trump
+                      tweeted about Kim Jong Un on Saturday after the North
+                      Korean leader emerged following a two-week disappearance.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card border-0 mb-4">
+                  <div class="image-wrapper mx-0">
+                    <a class="caption" href="#">U.S.</a>
+                    <a href="#">
+                      <img
+                        class="card-img-top"
+                        src="img/warren-buffett.jpg"
+                        alt="Card image cap"
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body p-0 pt-1">
+                    <a href="#">
+                      <h5 class="card-title">
+                        Warren Buffett Says Buying Airline Stocks a 'Mistake'
+                        During a Pandemic
+                      </h5>
+                    </a>
+                    <p class="card-text">
+                      Billionaire investor Warren Buffett's company sold off
+                      stocks in four major U.S. airlines. During an annual
+                      meeting Saturday through a live-stream, he called the
+                      investments during a pandemic "a mistake."
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card border-0 mb-4">
+                  <div class="image-wrapper mx-0">
+                    <a class="caption" href="#">World</a>
+                    <a href="#">
+                      <img
+                        class="card-img-top"
+                        src="img/tanker.jpg"
+                        alt="Card image cap"
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body p-0 pt-1">
+                    <a href="#">
+                      <h5 class="card-title">
+                        Iranian Nationals Charged in Attempt to Help Country
+                        Evade Sanctions
+                      </h5>
+                    </a>
+                    <p class="card-text">
+                      One defendant is believed to be an associate of high-level
+                      officials in the Islamic Revolutionary Guard Corps' Quds
+                      Force.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card border-0 mb-4">
+                  <div class="image-wrapper mx-0">
+                    <a class="caption" href="#">POLETICS</a>
+                    <a href="#">
+                      <img
+                        class="card-img-top"
+                        src="img/mitt-romney-patriot-pay-bonus.jpg"
+                        alt="Card image cap"
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body p-0 pt-1">
+                    <a href="#">
+                      <h5 class="card-title">
+                        Romney Proposes $12/Hour Bonus for All U.S. Essential
+                        Workers
+                      </h5>
+                    </a>
+                    <p class="card-text">
+                      The Utah senator proposed the bonus for all coronavirus
+                      pandemic essential workers, ranging from hospital
+                      employees to grocery store staff.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
           <section class="section-picks container">
             <a href="#"
-              ><h2 class="bottom-section-title font-weight-bold border-top">U.S.</h2></a
+              ><h2 class="bottom-section-title font-weight-bold border-top">
+                U.S.
+              </h2></a
             >
             <div class="row">
               <div class="col-md-8">
@@ -2870,7 +2871,9 @@
               </div>
             </div>
             <a href="#"
-              ><h2 class="bottom-section-title font-weight-bold border-top">World</h2></a
+              ><h2 class="bottom-section-title font-weight-bold border-top">
+                World
+              </h2></a
             >
             <div class="row">
               <div class="col-md-8">
@@ -2954,7 +2957,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="media  mb-3">
+                <div class="media mb-3">
                   <a href="#"
                     ><img
                       class="mr-3"
@@ -3297,7 +3300,7 @@
                 Sports
               </h2></a
             >
-            <div class="row">
+            <div class="row border-bottom">
               <div class="col-md-8">
                 <div class="row">
                   <div class="col-sm-12 col-md-6">
@@ -3482,10 +3485,10 @@
           </section>
           <footer class="mt-4 container pl-4 pt-4">
             <div
-              class="top-footer d-flex flex-column flex-md-row align-items-baseline justify-content-between  pb-2 mb-3 border-bottom text-muted"
+              class="top-footer d-flex flex-column flex-md-row align-items-baseline justify-content-between pb-2 mb-3 border-bottom text-muted"
             >
               <div
-                class="copyright d-flex justify-content-end  flex-column flex-md-row"
+                class="copyright d-flex justify-content-end flex-column flex-md-row"
               >
                 <a href="#"
                   ><img class="logo" src="img/newsweek-logo-footer.png" alt=""

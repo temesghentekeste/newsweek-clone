@@ -132,6 +132,18 @@ h5 {
   align-items: center;
 }
 
+.top-nav-onScroll {
+  width: 100%;
+  height: 60px;
+  padding: 2rem;
+  padding-top: 3.2rem;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  z-index: 900;
+  align-items: flex-end;
+}
+
 .top-right .sign-in {
   color: #fff;
   text-transform: uppercase;
@@ -276,8 +288,7 @@ h5 {
   width: 29px;
   height: 28px;
   margin-right: 10px;
-  background:
-    url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
     no-repeat #f72210;
 }
 
@@ -488,6 +499,11 @@ footer .fa-instagram:hover,
     object-fit: cover;
   }
 
+  .stick-more-stories {
+    position: sticky;
+    top: 0;
+  }
+
   .newsletter-image-wrapper img {
     height: 161px !important;
   }
@@ -517,6 +533,7 @@ footer .fa-instagram:hover,
   /* Navbar: top */
   .top-nav {
     height: 95px;
+    padding: 1rem 0;
   }
 
   .logo {
@@ -525,8 +542,9 @@ footer .fa-instagram:hover,
     text-align: center;
   }
 
-  .logo img {
+  .main-logo {
     height: 100%;
+    padding-top: 1rem;
   }
 
   .weather {
