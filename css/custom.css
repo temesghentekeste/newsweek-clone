@@ -174,7 +174,7 @@ h5 {
   display: none;
 }
 
-. -toggler {
+.navbar-toggler {
   display: block;
 }
 
@@ -485,12 +485,6 @@ footer .fa-instagram:hover,
     text-align: left;
     flex: 1;
   }
-
-  .in-the-megazine .img-align {
-    /* width: 100%;
-    height: 40vh;
-    object-fit: initial; */
-  }
 }
 
 @media (min-width: 768px) {
@@ -541,6 +535,9 @@ footer .fa-instagram:hover,
     width: 394px;
     height: 60px;
     text-align: center;
+    position: relative;
+    left:14.5%;
+    transform: translateX(-50%);
   }
 
   .main-logo {
