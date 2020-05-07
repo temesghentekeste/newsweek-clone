@@ -6,10 +6,10 @@ This project is a clone of the home page of <a href="https://www.newsweek.com/" 
 ![screenshot](https://github.com/temesghentekeste/newsweek-clone/blob/homepage/img/app-screenshot.png)
 
 ## Tablet
-![screenshot](https://github.com/temesghentekeste/newsweek-clone/blob/homepage/img/app-screenshot-tablet.png)
+![screenshot](https://github.com/temesghentekeste/newsweek-clone/blob/homepage/img/app_screenshot_tablet.png)
 
 ## Mobile
-![screenshot](https://github.com/temesghentekeste/newsweek-clone/blob/homepage/img/app-screenshot-mobile.png)
+![screenshot](https://github.com/temesghentekeste/newsweek-clone/blob/homepage/img/app_screenshot_mobile.png)
 
 ## Built With
 
