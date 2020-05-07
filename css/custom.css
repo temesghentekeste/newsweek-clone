@@ -164,6 +164,13 @@ h5 {
   width: 132px;
 }
 
+.logo-footer {
+  width: 236px;
+  height: 35.5px;
+  align-self: flex-end;
+  margin-bottom: 1rem;
+}
+
 .logo,
 .top-right {
   height: 25px;
