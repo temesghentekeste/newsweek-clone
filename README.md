@@ -17,9 +17,7 @@ This project is a clone of the home page of <a href="https://www.newsweek.com/" 
 ## Built With
 
 - HTML,
-- CSS,
-- VS Code
-- Firefox Developer Edition dev tools
+- CSS
 
 ## Live Demo
 

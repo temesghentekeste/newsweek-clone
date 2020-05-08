@@ -69,6 +69,7 @@ h5 {
 
 .container {
   max-width: 1314px;
+  min-width: 420px;
 }
 
 .card {
@@ -146,7 +147,7 @@ h5 {
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .top-right .subscribe {
@@ -483,8 +484,8 @@ footer .fa-instagram:hover,
 
   .subscription-image-container {
     width: 100%;
-    left: 25%;
-    transform: translate(-25%);
+    left: 50%;
+    transform: translate(-50%);
   }
 
   .subscribe-text-container {
@@ -549,7 +550,7 @@ footer .fa-instagram:hover,
 
   .main-logo {
     height: 100%;
-    padding-top: 1rem;
+    padding-top: 0.4rem;
   }
 
   .weather {
