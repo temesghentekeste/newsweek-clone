@@ -1,0 +1,638 @@
+:root {
+  --primary-color: #f72210;
+  --secondary-color: #fff;
+  --black-color: #000;
+  --bg-color: #eee;
+  --primary-font: 'Roboto Condensed', sans-serif;
+  --secondary-font: Arial, Helvetica, sans-serif;
+  --tirtiary-font: 'Arimo', sans-serif;
+  --font-summary-heading: 1.0625rem;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--black-color);
+  background: var(--bg-color);
+}
+
+a {
+  color: var(--black-color);
+  font-family: var(--primary-font);
+}
+
+h2 {
+  font-size: 1rem;
+  padding: 0 0 0.8rem;
+  color: rgba(3, 3, 3, 0.4);
+  font-weight: 600;
+}
+
+h5 {
+  line-height: 22px;
+}
+
+.primary-font {
+  font-family: var(--primary-font);
+}
+
+.bg-primary {
+  background: var(--primary-color) !important;
+  font-family: var(--secondary-font);
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.bg-lightdark {
+  background: #eee;
+}
+
+.black-text {
+  color: var(--black-color);
+}
+
+.dark-text {
+  color: #333;
+}
+
+.bottom-section-title {
+  color: var(--primary-color);
+  font-size: 1.34rem;
+  padding: 1.56rem 0 0.6875rem;
+}
+
+.font-summary-heading {
+  font-size: var(--font-summary-heading);
+  line-height: 20px;
+}
+
+.container {
+  max-width: 1314px;
+  min-width: 420px;
+}
+
+.card {
+  width: 100%;
+}
+
+.card .image-wrapper {
+  position: relative;
+}
+
+.card-title {
+  font-size: 1.375rem;
+  font-weight: 600;
+}
+
+.card-body p {
+  font-size: 0.8125rem;
+  font-family: var(--secondary-font);
+}
+
+.caption {
+  display: inline-block;
+  font-weight: bold;
+  color: #f72210;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.features-caption {
+  display: inline-block;
+  font-weight: bold;
+  background: #f72210;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0 12px;
+}
+
+.heros-caption {
+  background-color: #c2d4d7;
+  padding: 0 0.425rem;
+  font-size: 13px;
+  color: #333;
+}
+
+.news-summary {
+  font-size: 0.9375rem;
+  font-family: var(--secondary-font);
+  line-height: 20px;
+  color: #333;
+}
+
+/* Navbar */
+.top-nav {
+  height: 50px;
+  padding-bottom: 0.5rem;
+  align-items: center;
+}
+
+.top-nav-onScroll {
+  width: 100%;
+  height: 26px;
+  padding-top: 2rem;
+  position: fixed;
+  top: 0;
+  z-index: 900;
+  align-items: flex-end;
+}
+
+.top-right .sign-in {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.top-right .subscribe {
+  background: #fff;
+  height: 100%;
+  color: var(--primary-color);
+  font-weight: 600;
+  padding-bottom: 6px 12px 10px;
+  width: 130px;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.logo {
+  width: 132px;
+}
+
+.logo-footer {
+  width: 236px;
+  height: 35.5px;
+  align-self: flex-end;
+  margin-bottom: 1rem;
+}
+
+.logo,
+.top-right {
+  height: 25px;
+}
+
+.weather {
+  display: none;
+}
+
+.navbar-toggler {
+  display: block;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.7)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.bottom-nav {
+  display: none !important;
+  background: white !important;
+}
+
+.font-1 {
+  font-size: 1rem;
+}
+
+.font-2 {
+  font-size: 1.125rem;
+}
+
+.font-3 {
+  font-size: 1.25rem;
+}
+
+/* Opinion Section */
+
+.opinion img {
+  width: 63px;
+  height: 63px;
+}
+
+/* The Debate Section */
+.debate-item {
+  border-top: 3px solid var(--primary-color);
+  font-size: 17px;
+}
+
+.debate-item-2 {
+  border-top-color: #1c87fb;
+}
+
+.debate-item-author {
+  font-size: 0.85rem;
+  border-top: 1px solid #777;
+  padding: 5px 0;
+  position: relative;
+  margin-top: 1rem;
+}
+
+.debate-item-author::before {
+  content: '';
+  border-bottom: solid 1px #777;
+  width: 100%;
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+.debate-item-author img {
+  height: 63px;
+  width: 63px;
+  top: -10px;
+  right: 5px;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.the-debate .vs {
+  width: 40px;
+  height: 40px;
+  background-color: var(--black-color);
+  color: #d6d6d6;
+  border-radius: 50%;
+  line-height: 2.2rem;
+  text-align: center;
+}
+
+/* Sponsored Insight */
+
+.sponsored-insight h5,
+.in-the-megazine h5 {
+  font-size: 1.25rem;
+}
+
+.sponsored-insight .caption {
+  color: #3581f4;
+}
+
+/* Heros Section */
+.heros .card-title {
+  color: #444;
+  font-family: var(--tirtiary-font);
+  font-size: 1rem;
+}
+
+.heros .card-img-top {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+/* Sponsored Insight: Newsletter Sign up */
+.newsletter-signup {
+  font: bold 18px/18px 'Roboto Condensed', sans-serif;
+  padding: 20px;
+  background-color: #f4f5f6;
+  max-width: 300px;
+  margin: 0 auto 30px;
+}
+
+.newsweek-icon {
+  width: 29px;
+  height: 28px;
+  margin-right: 10px;
+  background:
+    url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+    no-repeat #f72210;
+}
+
+.btn-signup-custom {
+  padding: 10px 10px 12px;
+  background: #555;
+  color: #fff;
+  width: fit-content;
+  margin: 0 0 10px;
+}
+
+/* Subscribe section */
+.subscribe-btn {
+  padding: 6px 8px 6px 10px;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.subscribe-image-container img {
+  width: 170px !important;
+  height: 227px !important;
+  display: block;
+}
+
+.newsletter-image-wrapper img {
+  width: 100% !important;
+  height: 160px !important;
+}
+
+.subscribe-img-top {
+  left: 33px;
+  top: 11px;
+  z-index: 1;
+}
+
+.subscribe-description {
+  top: 130px;
+}
+
+.more-stories img,
+.debate-item .media img,
+.latest-news .media img,
+.section-picks .media img {
+  width: 95px;
+  height: 95px;
+  margin-right: 0.8rem;
+}
+
+.section-picks .media .short-img {
+  height: 64px;
+}
+
+/* Bottom Section: */
+
+/* In the megazine */
+.in-the-megazine h2 {
+  font-size: 1.2rem;
+}
+
+.in-the-megazine .see-all-text {
+  height: 100%;
+}
+
+.in-the-megazine .caption {
+  background: #fff;
+  width: 100%;
+  color: var(--primary-color);
+}
+
+.in-the-megazine .img-align {
+  width: 100%;
+  height: 50vh;
+  object-fit: inherit;
+}
+
+.hover-none {
+  color: var(--primary-color);
+}
+
+/* newsletter Section */
+
+.newsletter-section .newsletter-text p {
+  font-size: 0.95rem;
+  font-family: var(--secondary-font);
+}
+
+.newsletter-section .signin-btn {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 10px 12px;
+}
+
+/* footer section */
+footer {
+  min-height: 194px;
+}
+
+footer .logo {
+  width: 236px;
+  height: 35px;
+}
+
+footer a {
+  border-right: none !important;
+}
+
+a:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.bottom-footer a:hover {
+  color: var(--black-color);
+}
+
+.hover-black:hover {
+  color: var(--black-color);
+}
+
+.heros-caption:hover {
+  background: #333;
+  color: #c2d4d7;
+}
+
+.sponsored-insight a:hover {
+  color: var(--black-color);
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
+}
+
+.sponsored-insight .caption:hover {
+  text-decoration: none;
+  color: #3581f4;
+}
+
+.sponsored-insight .btn-signup-custom:hover {
+  color: #fff;
+}
+
+.debate-item a:hover {
+  color: var(--black-color);
+}
+
+.newsletter-section .signin-btn:hover {
+  background: #cb4334 !important;
+}
+
+.featured-stories h5:hover,
+.top-story h5:hover,
+.in-the-megazine h5:hover,
+.editors-pick h5:hover,
+.us h5:hover,
+.section-picks h5:hover,
+.more-stories .media-body a:hover {
+  color: var(--black-color);
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
+}
+
+.in-the-megazine .see-all-text:hover {
+  background: #ccc;
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+footer .fab {
+  color: #555;
+}
+
+footer .fa-facebook-square:hover {
+  color: #3b5998;
+}
+
+footer .fa-twitter:hover,
+footer .fa-instagram:hover,
+.fa-linkedin:hover {
+  color: #1da1f2;
+}
+
+@media (min-width: 690px) {
+  .subscribe-container {
+    justify-content: space-between;
+  }
+
+  .subscription-image-container {
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .subscribe-text-container {
+    align-self: flex-start;
+    text-align: left;
+    flex: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Heros */
+  .heros .card-img-top {
+    height: 15vh;
+    object-fit: cover;
+  }
+
+  .stick-more-stories {
+    position: sticky;
+    top: 0;
+  }
+
+  .newsletter-image-wrapper img {
+    height: 161px !important;
+  }
+
+  .in-the-megazine .img-align {
+    width: 100%;
+    height: 25vh;
+    object-fit: inherit;
+  }
+
+  /* footer */
+  .bf-upper a::after,
+  .bf-lower a::after {
+    content: '';
+    margin-left: 0.5rem;
+    height: 10px;
+    border-left: 1px solid #ddd;
+  }
+
+  /* removing the bordeer from the first child */
+  .bottom-footer .border-none::after {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Navbar: top */
+  .top-nav {
+    height: 95px;
+    padding: 1rem 0;
+  }
+
+  .logo {
+    width: 394px;
+    height: 60px;
+    text-align: center;
+    position: relative;
+    left: 14.5%;
+    transform: translateX(-50%);
+  }
+
+  .main-logo {
+    height: 100%;
+    padding-top: 0.4rem;
+  }
+
+  .weather {
+    display: block;
+    height: inherit;
+  }
+
+  .weather span,
+  .weather p {
+    color: #fff;
+    font-size: 0.9rem;
+  }
+
+  .weather img {
+    width: 25px;
+  }
+
+  .top-right {
+    height: 30px;
+  }
+
+  /* Nav: Bottom */
+  .bottom-nav {
+    display: flex !important;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+
+  .bottom-nav ul {
+    flex: 1;
+  }
+
+  /* change the link color */
+  .bottom-nav .navbar-nav .nav-link {
+    color: #000;
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  /* adding border-left to each link */
+  .bottom-nav .navbar-nav .nav-link::before {
+    content: '';
+    padding: 0 0.5rem;
+    height: 10px;
+    border-left: 1px solid #ddd;
+  }
+
+  /* removing the bordeer from the first child */
+  .bottom-nav .navbar-nav .no-border::before {
+    display: none;
+  }
+
+  /* styling the search form control */
+  .form-control {
+    border: none;
+    width: 85px !important;
+    font-size: 1rem;
+  }
+
+  .form-control:focus {
+    box-shadow: none;
+  }
+
+  .newsletter-image-wrapper img {
+    height: 300px !important;
+  }
+
+  .bottom-nav .navbar-nav .nav-link:hover {
+    color: var(--primary-color);
+  }
+
+  .in-the-megazine .img-align {
+    height: 30vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .in-the-megazine .img-align {
+    height: 35vh;
+  }
+}
